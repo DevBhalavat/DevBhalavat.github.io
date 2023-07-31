@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+:root{
+    --text: #edf2f7;
+    --background: #05070b;
+    --primary: #23214a;
+    --secondary: #1a1023;
+    --accent: #844eb1;
+}
+
+body{
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Poppins',sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 10vh;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+.lhero{
+    width: 55vw;
+    height: 80vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 2rem;
+}
+.name{
+    font-size: 4rem;
+}
+.cyberinv{
+    color: var(--accent);
+    visibility:hidden;
+}
+.cybervis{
+    color: var(--accent);
+    visibility: visible;
+}
+.rhero{
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
